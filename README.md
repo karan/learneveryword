@@ -12,21 +12,21 @@ Learn every word in the English language. Task will complete in 2022.
 
 1. Make a `config.py` in `bot/` that looks like this:
 
-```
-twitter = dict(
-  key = '',
-  secret = '',
-  token = '',
-  token_secret = '',
-)
+    ```
+    twitter = dict(
+      key = '',
+      secret = '',
+      token = '',
+      token_secret = '',
+    )
 
-aws = dict(
-  key = '',
-  secret = '',
-  bucket = 'learneveryword',
-  data = 'data.json',
-)
-```
+    aws = dict(
+      key = '',
+      secret = '',
+      bucket = 'learneveryword',
+      data = 'data.json',
+    )
+    ```
 
 2. Upload `data.json` in your `aws.bucket`.
 
@@ -37,3 +37,7 @@ aws = dict(
 5. ???
 
 6. Profit.
+
+### License
+
+Apache
